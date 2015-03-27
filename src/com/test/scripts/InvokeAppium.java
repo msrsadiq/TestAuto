@@ -22,7 +22,7 @@ public class InvokeAppium
 			{
 				System.out.println("Launching Application...");
 				appium = Runtime.getRuntime().exec(new String[]{"cmd.exe", "/C", "Start", file.getAbsolutePath()});
-				Thread.sleep(5000);
+				Thread.sleep(10000);
 				System.out.println("Appium Launched");
 			}
 		}
